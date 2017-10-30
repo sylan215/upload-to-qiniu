@@ -1,4 +1,3 @@
-```python
 # -*- coding: utf-8 -*-
 
 import os
@@ -44,4 +43,3 @@ def upload_all_files(input_path):
 
 if __name__ == "__main__":
     upload_all_files(file_path)
-```
