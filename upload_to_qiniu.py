@@ -26,9 +26,9 @@ def upload_qiniu(input_path):
     token = qiniu_auth.upload_token(bucket_name, key)
     ret, info = put_file(token, key, input_path, check_crc=True)
     if ret and ret['key'] == key:
-        print('%s done' % ('http://sylan215.com/' + dir_set + filename))
+        print('%s done' % ('http://www.sylan215.com/' + dir_set + filename))
     else:
-        print('%s error' % ('http://sylan215.com/' + dir_set + filename))
+        print('%s error' % ('http://www.sylan215.com/' + dir_set + filename))
 
 def upload_all_files(input_path):
     if os.path.isfile(input_path):
