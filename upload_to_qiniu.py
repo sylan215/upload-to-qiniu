@@ -5,7 +5,7 @@ import sys
 from qiniu import Auth, put_file
 
 if 3 != len(sys.argv):
-    print('[Usage] %s [dir_set] [filepath]' % os.path.basename(sys.argv[0])
+    print('[Usage] %s [dir_set] [filepath]' % os.path.basename(sys.argv[0]))
     sys.exit(0)
 else:
     dir_set = sys.argv[1] # dir_set 的格式为 image/upload-qiniu/ ，注意末尾带反斜杠/
