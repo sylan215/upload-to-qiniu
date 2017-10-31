@@ -8,7 +8,7 @@ python -m pip install qiniu
 
 #### 2. 修改绑定域名
 
-修改代码中的 http://sylan215.com 为自己在七牛云存储绑定的域名
+修改代码中的 http://www.sylan215.com 为自己在七牛云存储绑定的域名
 
 #### 3. 带两个参数执行脚本
 
@@ -22,6 +22,6 @@ python -m pip install qiniu
 upload_to_qiniu.py image/test/ d:\test.png
 ```
 
-运行后，上传后的文件地址就类似：http://sylan215.com/image/test/test.png 
+运行后，上传后的文件地址就类似：http://www.sylan215.com/image/test/test.png 
 
 PS：已使用 Python2.7 和 Python3.4 亲测有效，其他 Python 版本如果有异常，请反馈
